@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Sortable Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Department</th>
+                <th onclick="sortTable(2)">Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>HR</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Engineering</td>
+                <td>60000</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>Sales</td>
+                <td>55000</td>
+            </tr>
+            <tr>
+                <td>Diana</td>
+                <td>Marketing</td>
+                <td>52000</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

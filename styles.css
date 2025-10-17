@@ -1,0 +1,27 @@
+body {
+    background: #fff7fa;
+    font-family: Arial, sans-serif;
+}
+#employeeTable {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 65%;
+    box-shadow: 0 2px 10px rgba(255,192,203,0.2);
+}
+#employeeTable th, #employeeTable td {
+    padding: 13px 16px;
+    border: 1px solid #b6b2b2;
+    background: #fff;
+}
+#employeeTable th {
+    background: #ffc0cb;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#employeeTable th:hover {
+    background: #e75480;
+    color: #fff;
+}
+#employeeTable tr:hover td {
+    background: #ffe4ed;
+}
